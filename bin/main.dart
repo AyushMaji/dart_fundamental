@@ -70,7 +70,7 @@ void main() {
   print(total);
 // ============================== function concept ========================
 
-// ============================= opps concept =======================
+// ============================= opps concept =========================
 
   var cardetails = car(); // create object
   cardetails.budgets(); // call fuction
