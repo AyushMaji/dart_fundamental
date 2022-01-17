@@ -1,4 +1,3 @@
-
 void main() {
   var sons = son(); // create objects
   print(sons.myname);
@@ -10,6 +9,10 @@ void main() {
 class son extends father {
   var myname = "ayush maji";
   var age = '21';
+
+  void my() {
+    print(super.name); // jokhon father class ar variable ba method k call korba tokhon super keyword ta use korato para.
+  }
 }
 
 class father {
